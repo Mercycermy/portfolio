@@ -16,3 +16,35 @@
     margin-top: 3em;
   }
 }
+/* Footer Container */
+
+/* Footer Text */
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Social Links */
+.social-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between icons */
+}
+
+.social-links .link {
+  color: #131111;
+  font-size: 20px; /* Icon size */
+  transition: transform 0.2s, color 0.2s;
+}
+
+.social-links .link:hover {
+  color: #cc25db; /* Green hover effect */
+  transform: scale(1.2); /* Slight zoom */
+}

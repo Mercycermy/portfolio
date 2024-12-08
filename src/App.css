@@ -5,23 +5,26 @@
   background-color: var(--clr-bg);
 }
 
+/* Light Theme */
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-bg: #fef9fb; /* Soft pinkish white background */
+  --clr-bg-alt: #ffffff; /* Bright white */
+  --clr-fg: #555555; /* Warm gray for text */
+  --clr-fg-alt: #8f8f8f; /* Soft light gray for alternate text */
+  --clr-primary: #f7a8b8; /* Soft pink for highlights */
+  --clr-secondary: #b6e1f5; /* Light pastel blue for accents */
+  --shadow: rgba(255, 182, 193, 0.2) 0px 7px 29px 0px; /* Soft pink shadow */
 }
 
+/* Dark Theme */
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --clr-bg: #2b2d3a; /* Muted lavender-gray background */
+  --clr-bg-alt: #36394a; /* Deeper gray for accents */
+  --clr-fg: #f1d4e1; /* Soft cream color for text */
+  --clr-fg-alt: #d6a6c4; /* Light pastel pinkish lavender */
+  --clr-primary: #ff7db6; /* Blush pink for highlights */
+  --clr-secondary: #9fc9f3; /* Light sky blue for accents */
+  --shadow: rgba(0, 0, 0, 0.4) 0px 10px 36px 0px, rgba(0, 0, 0, 0.2) 0px 0px 0px 1px;
 }
 
 main {
@@ -38,6 +41,7 @@ main {
   text-align: center;
   margin-bottom: 1em;
   text-transform: uppercase;
+  color: var(--clr-primary);
 }
 
 .center {
@@ -49,10 +53,11 @@ main {
   color: var(--clr-primary);
   padding: 0 0 0.3em 0;
   position: relative;
+  transition: color 0.2s ease-in;
 }
 
 .link:hover {
-  color: var(--clr-primary);
+  color: var(--clr-secondary);
 }
 
 .link::before {
@@ -124,7 +129,7 @@ main {
 .btn--plain {
   text-transform: initial;
   background-color: var(--clr-bg-alt);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  box-shadow: rgba(255, 182, 193, 0.15) 0px 3px 3px 0px;
   border: 0;
 }
 
