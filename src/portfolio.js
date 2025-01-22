@@ -8,7 +8,7 @@ const about = {
   role: 'Front-End Developer ',
   description:
     'Ambitious front-end developer with hands-on experience in building digital solutions. A Computer Science student at CPU College. Currently expanding back-end development skills through the ALX Africa program.',
-  resume: 'https://docs.google.com/document/d/1z-wIBF6diRUiCs7-wRwQLNkUtu-aWaHuRMNPrunVqU8/edit?usp=sharing', // Update with actual resume link if available
+  resume: 'https://docs.google.com/document/d/1GeaXKljVi3QMEEUwmQXqxF8_fawtedOxSTJf3nMHEAA/edit?tab=t.0', // Update with actual resume link if available
   social: {
     linkedin: 'https://www.linkedin.com/in/mihret-tsegaye-nega/', // Update with actual LinkedIn profile link
     github: 'https://github.com/Mercycermy', // Update with actual GitHub profile link
